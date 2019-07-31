@@ -19,7 +19,7 @@ import (
 	"encoding/hex"
 	"flag"
 
-	"gocw"
+	"github.com/google/gocw"
 
 	"github.com/golang/glog"
 )

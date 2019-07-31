@@ -45,7 +45,7 @@ import (
 	"math/bits"
 	"sync"
 
-	"gocw"
+	"github.com/google/gocw"
 
 	"github.com/golang/glog"
 	"gonum.org/v1/gonum/mat"

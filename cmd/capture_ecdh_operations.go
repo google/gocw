@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"gocw"
-	"gocw/util"
+	"github.com/google/gocw"
+	"github.com/google/gocw/util"
 
 	"github.com/golang/glog"
 )

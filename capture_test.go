@@ -18,10 +18,10 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"gocw"
 	"reflect"
-
 	"testing"
+
+	"github.com/google/gocw"
 )
 
 func TestSaveLoad(t *testing.T) {

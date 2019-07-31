@@ -22,7 +22,7 @@ import (
 	"io"
 	"time"
 
-	"gocw"
+	"github.com/google/gocw"
 
 	"github.com/golang/glog"
 )

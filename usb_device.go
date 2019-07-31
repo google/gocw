@@ -59,7 +59,7 @@ const (
 	rTypeControlOut uint8 = gousb.ControlOut | gousb.ControlVendor | gousb.ControlInterface
 )
 
-//go:generate mockgen -destination=mocks/usb_device.go -package=mocks gocw UsbDeviceInterface
+//go:generate mockgen -destination=mocks/usb_device.go -package=mocks github.com/google/gocw UsbDeviceInterface
 type UsbDeviceInterface interface {
 	// Reads/Writes to bulk data endpoint.
 	io.Reader

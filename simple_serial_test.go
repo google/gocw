@@ -16,12 +16,13 @@ package gocw_test
 
 import (
 	"bytes"
-	"gocw"
-	"gocw/mocks"
 	"strings"
+	"testing"
+
+	"github.com/google/gocw"
+	"github.com/google/gocw/mocks"
 
 	"github.com/golang/mock/gomock"
-	"testing"
 )
 
 func TestNewSimpleSerialFailsOnBadVersion(t *testing.T) {

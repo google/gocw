@@ -20,11 +20,10 @@ import (
 	"path"
 	"path/filepath"
 	"runtime"
-
-	"gocw"
-	"gocw/util"
-
 	"testing"
+
+	"github.com/google/gocw"
+	"github.com/google/gocw/util"
 )
 
 const (

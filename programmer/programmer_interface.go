@@ -18,7 +18,7 @@ import (
 	"io"
 )
 
-//go:generate mockgen -destination=mocks/programmer.go -package=mocks gocw/programmer ProgrammerInterface
+//go:generate mockgen -destination=mocks/programmer.go -package=mocks github.com/google/gocw/programmer ProgrammerInterface
 type ProgrammerInterface interface {
 	io.Closer
 	Erase() error

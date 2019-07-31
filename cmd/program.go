@@ -21,7 +21,7 @@ import (
 	"flag"
 	"path"
 
-	"gocw/util"
+	"github.com/google/gocw/util"
 
 	"github.com/golang/glog"
 )

@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"time"
 
-	"gocw/hardware"
+	"github.com/google/gocw/hardware"
 
 	"github.com/golang/glog"
 )

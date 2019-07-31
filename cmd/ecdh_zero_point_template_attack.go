@@ -44,7 +44,7 @@ import (
 	"math"
 	"sort"
 
-	"gocw"
+	"github.com/google/gocw"
 
 	"github.com/golang/glog"
 	"gonum.org/v1/gonum/mat"

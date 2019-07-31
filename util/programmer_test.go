@@ -16,12 +16,13 @@ package util_test
 
 import (
 	"fmt"
-	"gocw/programmer/mocks"
-	"gocw/util"
 	"strings"
+	"testing"
+
+	"github.com/google/gocw/programmer/mocks"
+	"github.com/google/gocw/util"
 
 	"github.com/golang/mock/gomock"
-	"testing"
 )
 
 func TestProgrammerFailsIfEraseFails(t *testing.T) {

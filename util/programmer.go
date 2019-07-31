@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"gocw/programmer"
-	"gocw/programmer/stm32f"
-	"gocw/programmer/xmega"
+	"github.com/google/gocw/programmer"
+	"github.com/google/gocw/programmer/stm32f"
+	"github.com/google/gocw/programmer/xmega"
 
 	"github.com/golang/glog"
 )

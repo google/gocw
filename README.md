@@ -38,10 +38,11 @@ $ go get -d ./...
 
 ```shell
 $ go get -u golang.org/x/tools/cmd/stringer
-$ go get -u github.com/golang/mock/gomock
 $ go get -u github.com/omeid/go-resources/cmd/resources
+$ go get -u github.com/golang/mock/gomock
+$ go install github.com/golang/mock/mockgen
 $ go generate ./hardware ./...
-$ go test gocw
+$ go test github.com/google/gocw
 ```
 
 4.   Build firmware files. See CW [wiki](https://wiki.newae.com/Main_Page) for

@@ -25,7 +25,7 @@ import (
 	"github.com/golang/glog"
 )
 
-//go:generate mockgen -destination=mocks/usart.go -package=mocks gocw UsartInterface
+//go:generate mockgen -destination=mocks/usart.go -package=mocks github.com/google/gocw UsartInterface
 type UsartInterface interface {
 	io.Reader
 	io.Writer

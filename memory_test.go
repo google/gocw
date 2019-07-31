@@ -16,11 +16,12 @@ package gocw_test
 
 import (
 	"bytes"
-	"gocw"
-	"gocw/mocks"
+	"testing"
+
+	"github.com/google/gocw"
+	"github.com/google/gocw/mocks"
 
 	"github.com/golang/mock/gomock"
-	"testing"
 )
 
 func TestMemoryRead(t *testing.T) {

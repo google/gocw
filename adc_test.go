@@ -16,10 +16,10 @@ package gocw_test
 
 import (
 	"encoding/hex"
-	"gocw"
 	"reflect"
-
 	"testing"
+
+	"github.com/google/gocw"
 )
 
 func TestProcessData(t *testing.T) {

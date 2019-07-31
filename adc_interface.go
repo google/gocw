@@ -154,7 +154,7 @@ const (
 	GpioDisabled GpioMode = iota
 )
 
-//go:generate mockgen -destination=mocks/adc.go -package=mocks gocw AdcInterface
+//go:generate mockgen -destination=mocks/adc.go -package=mocks github.com/google/gocw AdcInterface
 type AdcInterface interface {
 	io.Closer
 	Error() error

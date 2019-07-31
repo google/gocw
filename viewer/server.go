@@ -27,8 +27,8 @@ import (
 	"sync"
 	"time"
 
-	"gocw"
-	"gocw/util"
+	"github.com/google/gocw"
+	"github.com/google/gocw/util"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/golang/glog"
