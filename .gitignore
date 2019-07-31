@@ -1,0 +1,7 @@
+*.swp
+tags
+cscope.*
+build/
+**/mocks/
+*_string.go
+*_resources.go

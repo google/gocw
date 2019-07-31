@@ -1,0 +1,14 @@
+add_library(cryptoc
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/util.c
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/hmac.c
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/p256.c
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/p256_ec.c
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/p256_ecdsa.c
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/p256_prng.c
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/sha.c
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/sha256.c
+)
+target_include_directories(cryptoc
+  PUBLIC
+  ${CMAKE_SOURCE_DIR}/third_party/cryptoc/include
+)

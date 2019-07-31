@@ -1,0 +1,6 @@
+[submodule "third_party/tiny-AES-c"]
+	path = third_party/tiny-AES-c
+	url = https://github.com/kokke/tiny-AES-c.git
+[submodule "third_party/cryptoc"]
+	path = third_party/cryptoc
+	url = https://chromium.googlesource.com/chromiumos/third_party/cryptoc
